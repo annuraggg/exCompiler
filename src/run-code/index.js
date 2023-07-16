@@ -51,7 +51,7 @@ async function runCode({language = "", code = "", input = ""}) {
 
             reject({
                 status: 408,
-                error: `CodeX API Timed Out. Your code took too long to execute, over ${timeout} seconds. Make sure you are sending input as payload if your code expects an input.`
+                error: `Timed Out. Your code took too long to execute, over ${timeout} seconds. Make sure you are sending input as payload if your code expects an input.`
             })
         }, timeout * 1000);
 
