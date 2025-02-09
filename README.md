@@ -15,7 +15,7 @@ In order to setup this project locally on your machine, you can either run the d
 ```bash
 docker build --no-cache -t ex-compiler .
 
-docker run -p 3000:3000 ex-compiler
+docker run -p 4000:4000 ex-compiler
 ```
 
 ## API Reference
